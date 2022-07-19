@@ -4,8 +4,8 @@
 
 ## Define the total time of the simulation and how often to output concentration field
 
-TotalTime=0.01
-runTimestep=1e-4
+TotalTime=0.1
+runTimestep=1e-3
 WriteTimestep=10
 
 ## Define the diffusion coefficient of the species as a solute (m^2/s)

@@ -6,7 +6,7 @@
 TotalTime=2000
 
 ## Define your pressure drop at the inlet (Pa)
-deltaP=100
+deltaP=10
 
 
 ## Define the kinematic viscocity of the fluid (m^2/s)
