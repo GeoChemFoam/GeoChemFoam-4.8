@@ -22,11 +22,9 @@ phases=(1 2 3)
 
 #define the porosity of each phase, note that the porosity of the solid phase CANNOT be 0, default to 0.0001
 micro_por=('1' '0.35' '0.0001')
-#micro_por=('1' '0.37' '0.35' '0.32' '0.0001')
 
 #define the permeability of each label (note: solid phase should be < 1e-20, pore should be > 1e13)
 micro_k=('1e13' '1.82e-15' '1e-20')
-#micro_k=('1e13' '2.47e-15' '1.82e-15' '1.46e-15' '1e-20')
 
 # Define cropping parameters
 x_min=150
