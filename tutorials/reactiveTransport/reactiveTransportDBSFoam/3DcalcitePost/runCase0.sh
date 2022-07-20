@@ -76,3 +76,6 @@ cp -f 1e-06/phi 0/.
 cp -f 1e-06/R 0/.
 rm -rf 1e-06
 
+echo -e "Note: Please check the last line of reactiveTransportDBSFoam0.out to confirm the equation have converged. If it has not, use restartCase0.sh to restart the case and/or change the tolerance and residual controls in system/fvSolution" 
+
+

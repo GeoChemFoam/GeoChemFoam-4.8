@@ -126,7 +126,7 @@ sed -i "s/cSmooth/$cSmooth/g" system/fvSolution
 
 smoothSolidSurface > smoothSolidSurface.out
 
-echo -e "Case initialised"
+echo -e "Case initialised. It is advised to check in paraview to confirm mesh and 0/eps are reasonable before running flow"
 
 
 
