@@ -2,7 +2,7 @@
 
 ###### USERS INPUT ############################################################
 
-TotalTime=1600
+TotalTime=800
 WriteTimestep=800
 initTimestep=1
 maxTimestep=50

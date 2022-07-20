@@ -211,7 +211,6 @@ os.system('decomposePar > decomposePar.out')
 
 os.system('cp constant/dynamicMeshDictInit constant/dynamicMeshDict')
 os.system('cp constant/dynamicMeshDictInit constant/dynamicMeshDict0')
-os.system('cp constant/dynamicMeshDictInit constant/dynamicMeshDict1')
 
 if (nLevel>0):
     os.system('cp constant/dynamicMeshDictAMRInit constant/dynamicMeshDict')

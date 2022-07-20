@@ -2,16 +2,15 @@
 
 ###### USERS INPUT ############################################################
 
-TotalTime=3200
+TotalTime=1600
 WriteTimestep=800
-initTimestep=0.5
-maxTimestep=3
+initTimestep=1
+maxTimestep=50
 
 #### END OF USER INPUT #######################################################
 
 export NP="$(find processor* -maxdepth 0 -type d -print| wc -l)"
 
-cp constant/dynamicMeshDict1 constant/dynamicMeshDict
 cp system/controlDictRun system/controlDict
 cp system/fvSolutionRun system/fvSolution
 
