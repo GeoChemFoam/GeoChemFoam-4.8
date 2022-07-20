@@ -1,0 +1,4 @@
+Size: 500 500 500
+res ??? mum
+pore=0
+solid=1
